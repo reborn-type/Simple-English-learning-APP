@@ -2,6 +2,7 @@
 #include "ui_addwordswindow.h"
 #include "mainwindow.h"
 #include "QSqlDatabase"
+#include "QString"
 
 addWordsWindow::addWordsWindow(QWidget *parent)
     : QDialog(parent)
@@ -18,12 +19,10 @@ addWordsWindow::addWordsWindow(QWidget *parent)
     }
 
     query = new QSqlQuery(db);
-    query->exec("CREATE TABLE WordList(Russian Text, English TEXT, WordID INT);");
-
+    query->exec("CREATE TABLE words(word_id INT PRIMARY KEY, russian TEXT NO NULL, english TEXT NO NULL)");
     model = new QSqlTableModel(this, db);
-    model->setTable("WordList");
-    model->select();
-
+    model->setTable("words");
+    model->select(); 
     ui->tableView->setModel(model);
 }
 
@@ -34,8 +33,21 @@ addWordsWindow::~addWordsWindow()
 
 void addWordsWindow::on_pushButton_clicked()
 {
-    model->insertRow(model->rowCount());
+    //Получаем макимальный word_id
+    query->exec("SELECT MAX(word_id) FROM words");
+    int maxId = 0;
+    if (query->next()){
+        maxId = query->value(0).toInt();
+    }
+
+    //Добавляем строку
+    int newRow = model->rowCount();
+    model->insertRow(newRow);
+
+    model->setData(model->index(newRow, 0), maxId + 1);
+
     model->submitAll();
+    model->select();
 }
 
 

@@ -7,6 +7,7 @@
 #include <QDebug>
 #include <QSqlQuery>
 #include <QKeyEvent>
+#include <QString>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

@@ -7,7 +7,7 @@
 #include <QDebug>
 #include <QSqlQuery>
 #include <QSqlTableModel>
-
+#include <QMessageBox>
 
 namespace Ui {
 class addWordsWindow;

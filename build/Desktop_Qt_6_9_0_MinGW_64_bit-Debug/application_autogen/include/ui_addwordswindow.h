@@ -14,6 +14,7 @@
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QTableView>
@@ -24,10 +25,11 @@ class Ui_addWordsWindow
 {
 public:
     QGridLayout *gridLayout_2;
+    QPushButton *pushButton;
+    QSpacerItem *verticalSpacer;
     QTableView *tableView;
     QPushButton *pushButton_2;
-    QSpacerItem *verticalSpacer;
-    QPushButton *pushButton;
+    QLabel *label;
 
     void setupUi(QDialog *addWordsWindow)
     {
@@ -37,6 +39,15 @@ public:
         addWordsWindow->resize(800, 600);
         gridLayout_2 = new QGridLayout(addWordsWindow);
         gridLayout_2->setObjectName("gridLayout_2");
+        pushButton = new QPushButton(addWordsWindow);
+        pushButton->setObjectName("pushButton");
+
+        gridLayout_2->addWidget(pushButton, 5, 0, 1, 1);
+
+        verticalSpacer = new QSpacerItem(20, 120, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Maximum);
+
+        gridLayout_2->addItem(verticalSpacer, 2, 0, 1, 2);
+
         tableView = new QTableView(addWordsWindow);
         tableView->setObjectName("tableView");
 
@@ -45,16 +56,12 @@ public:
         pushButton_2 = new QPushButton(addWordsWindow);
         pushButton_2->setObjectName("pushButton_2");
 
-        gridLayout_2->addWidget(pushButton_2, 3, 1, 1, 1);
+        gridLayout_2->addWidget(pushButton_2, 5, 1, 1, 1);
 
-        verticalSpacer = new QSpacerItem(20, 120, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Maximum);
+        label = new QLabel(addWordsWindow);
+        label->setObjectName("label");
 
-        gridLayout_2->addItem(verticalSpacer, 1, 0, 1, 2);
-
-        pushButton = new QPushButton(addWordsWindow);
-        pushButton->setObjectName("pushButton");
-
-        gridLayout_2->addWidget(pushButton, 3, 0, 1, 1);
+        gridLayout_2->addWidget(label, 1, 0, 1, 1);
 
 
         retranslateUi(addWordsWindow);
@@ -65,8 +72,9 @@ public:
     void retranslateUi(QDialog *addWordsWindow)
     {
         addWordsWindow->setWindowTitle(QCoreApplication::translate("addWordsWindow", "Dialog", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("addWordsWindow", "\320\243\320\264\320\260\320\273\320\270\321\202\321\214", nullptr));
         pushButton->setText(QCoreApplication::translate("addWordsWindow", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("addWordsWindow", "\320\243\320\264\320\260\320\273\320\270\321\202\321\214", nullptr));
+        label->setText(QCoreApplication::translate("addWordsWindow", "Something from the table", nullptr));
     } // retranslateUi
 
 };
