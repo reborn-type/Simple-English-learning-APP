@@ -675,9 +675,12 @@ application_autogen/timestamp: \
 	C:/Users/mrbog/Documents/application/main.cpp \
 	C:/Users/mrbog/Documents/application/mainwindow.cpp \
 	C:/Users/mrbog/Documents/application/mainwindow.h \
+	C:/Users/mrbog/Documents/application/modul_select.cpp \
+	C:/Users/mrbog/Documents/application/modul_select.h \
 	C:/Users/mrbog/Documents/application/moduls.cpp \
 	C:/Users/mrbog/Documents/application/moduls.h \
 	C:/Users/mrbog/Documents/application/addwordswindow.ui \
 	C:/Users/mrbog/Documents/application/mainwindow.ui \
+	C:/Users/mrbog/Documents/application/modul_select.ui \
 	C:/Users/mrbog/Documents/application/moduls.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

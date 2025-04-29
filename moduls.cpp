@@ -26,6 +26,11 @@ moduls::moduls(QWidget *parent)
     modelModul->select();
 
     ui->tableView->setModel(modelModul);
+
+    ui->tableView->horizontalHeader()->setSectionResizeMode(0, QHeaderView::Fixed);
+    ui->tableView->setColumnWidth(0, 50);     // Первый столбец фиксированный
+    ui->tableView->horizontalHeader()->setSectionResizeMode(1, QHeaderView::Stretch); // Второй растягивается
+    ui->tableView->horizontalHeader()->setSectionResizeMode(2, QHeaderView::Stretch);
 }
 
 moduls::~moduls()
@@ -65,5 +70,8 @@ void moduls::on_pushButton_3_clicked()
 void moduls::on_tableView_doubleClicked(const QModelIndex &index)
 {
     QMessageBox::information(this, "Информация", "Этот функционал еще не сделан");
+
+
+
 }
 
