@@ -2,6 +2,8 @@
 #include "ui_moduls.h"
 #include "mainwindow.h"
 #include "QSqlDatabase"
+#include "modul_select.h"
+#include "training.h"
 
 moduls::moduls(QWidget *parent)
     : QDialog(parent)
@@ -40,15 +42,49 @@ moduls::~moduls()
 
 void moduls::on_pushButton_clicked()
 {
-    modelModul->insertRow(modelModul->rowCount());
+    query->exec("SELECT MAX(ModulID) FROM ModulList");
+    int maxId = 0;
+    if (query->next()){
+        maxId = query->value(0).toInt();
+    }
+
+    //Добавляем строку
+    int newRow = modelModul->rowCount();
+    modelModul->insertRow(newRow);
+
+    modelModul->setData(modelModul->index(newRow, 0), maxId + 1);
+
     modelModul->submitAll();
+    modelModul->select();
 }
 
 
-void moduls::on_pushButton_2_clicked()
+void moduls::on_pushButton_2_clicked() //удалить
 {
-    modelModul->removeRow(row);
-    modelModul->select();
+
+
+    QString str_information = "Вы точно хотите удалить модуль - \"%1\"? После удаления все слова из него исчезнут!";
+    str_information = str_information.arg(modelModul->data(modelModul->index(row, 1)).toString());
+    QMessageBox::StandardButton chose = QMessageBox::critical(this, "Предупреждение!", str_information, QMessageBox::Yes | QMessageBox::No);
+    if(chose == QMessageBox::Yes){
+        if(row < 0 || row >= modelModul->rowCount()) {
+            QMessageBox::warning(this, "Ошибка!", "Не выбрана строка для удаления!");
+            return;
+        }
+
+        QSqlQuery query(dbModuls);
+        int modul_id = modelModul->record(row).value("ModulID").toInt();
+        QString num_of_mId = QString::number(modul_id);
+        QString str = "DROP TABLE IF EXISTS module_words_%1";
+        str = str.arg(num_of_mId);
+        query.exec(str);
+        modelModul->removeRow(row);
+
+
+        modelModul->select();
+
+        //modelModul->setFilter(modelModul->filter());
+    }
 }
 
 
@@ -59,7 +95,7 @@ void moduls::on_tableView_clicked(const QModelIndex &index)
 }
 
 
-void moduls::on_pushButton_3_clicked()
+void moduls::on_pushButton_3_clicked() // вернуться
 {
     this->hide();
     MainWindow *mWindow = new MainWindow(this);
@@ -69,9 +105,26 @@ void moduls::on_pushButton_3_clicked()
 
 void moduls::on_tableView_doubleClicked(const QModelIndex &index)
 {
-    QMessageBox::information(this, "Информация", "Этот функционал еще не сделан");
+    QSqlTableModel *model = qobject_cast<QSqlTableModel*>(ui->tableView->model());
+    if(!model){
+        qDebug() << "Ошибка! Модель на является QSqlTableModel";
+        return;
+    }
+
+    int row = index.row();
 
 
 
+    QString name = model->record(row).value("name").toString();
+
+    int modul_id = model->record(row).value("ModulID").toInt();
+    QString num_of_mId = QString::number(modul_id);
+    QString database_name = "module_words_%1"; //Имя дб с которой мы работаем
+    database_name = database_name.arg(num_of_mId);
+
+    QString dbName = database_name;
+    modul_select *mWindow = new modul_select(dbName, modul_id, this);
+    mWindow->show();
+    this->hide();
 }
 

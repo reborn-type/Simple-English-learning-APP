@@ -157,11 +157,13 @@ C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/a
   C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlDatabase \
   C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlError \
   C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlQuery \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlRecord \
   C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlTableModel \
   C:/Qt/6.9.0/mingw_64/include/QtSql/qsqldatabase.h \
   C:/Qt/6.9.0/mingw_64/include/QtSql/qsqlerror.h \
   C:/Qt/6.9.0/mingw_64/include/QtSql/qsqlquery.h \
   C:/Qt/6.9.0/mingw_64/include/QtSql/qsqlquerymodel.h \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/qsqlrecord.h \
   C:/Qt/6.9.0/mingw_64/include/QtSql/qsqltablemodel.h \
   C:/Qt/6.9.0/mingw_64/include/QtSql/qtsql-config.h \
   C:/Qt/6.9.0/mingw_64/include/QtSql/qtsqlexports.h \

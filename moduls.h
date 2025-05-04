@@ -8,6 +8,8 @@
 #include <QSqlQuery>
 #include <QSqlTableModel>
 #include <QMessageBox>
+#include <QSqlRecord>
+
 
 namespace Ui {
 class moduls;

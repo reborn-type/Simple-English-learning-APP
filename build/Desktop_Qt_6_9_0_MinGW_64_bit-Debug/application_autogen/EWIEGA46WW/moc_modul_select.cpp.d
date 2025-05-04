@@ -1,5 +1,6 @@
 C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/EWIEGA46WW/moc_modul_select.cpp: C:/Users/mrbog/Documents/application/modul_select.h \
   C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/moc_predefs.h \
+  C:/Qt/6.9.0/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.9.0/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/q20iterator.h \
@@ -7,6 +8,7 @@ C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/a
   C:/Qt/6.9.0/mingw_64/include/QtCore/q20type_traits.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/q20utility.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/q23utility.h \
+  C:/Qt/6.9.0/mingw_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qanystringview.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qarraydata.h \
@@ -59,6 +61,7 @@ C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/a
   C:/Qt/6.9.0/mingw_64/include/QtCore/qmargins.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qmath.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qmetacontainer.h \
+  C:/Qt/6.9.0/mingw_64/include/QtCore/qmetaobject.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qmetatype.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qminmax.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qnamespace.h \
@@ -151,8 +154,25 @@ C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/a
   C:/Qt/6.9.0/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.9.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.9.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlDatabase \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlError \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlQuery \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlRecord \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlTableModel \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/qsqldatabase.h \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/qsqlerror.h \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/qsqlquery.h \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/qsqlquerymodel.h \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/qsqlrecord.h \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/qsqltablemodel.h \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/qtsql-config.h \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/qtsqlexports.h \
+  C:/Qt/6.9.0/mingw_64/include/QtSql/qtsqlglobal.h \
   C:/Qt/6.9.0/mingw_64/include/QtWidgets/QDialog \
+  C:/Qt/6.9.0/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.9.0/mingw_64/include/QtWidgets/qdialog.h \
+  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/6.9.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.9.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.9.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \

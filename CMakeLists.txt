@@ -27,6 +27,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         addwordswindow.h addwordswindow.cpp addwordswindow.ui
         moduls.h moduls.cpp moduls.ui
         modul_select.h modul_select.cpp modul_select.ui
+        training.h training.cpp training.ui
 
     )
 # Define target properties for Android with Qt 6 as:

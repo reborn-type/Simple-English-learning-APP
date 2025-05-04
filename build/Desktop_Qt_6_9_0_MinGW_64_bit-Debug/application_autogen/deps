@@ -187,11 +187,13 @@ application_autogen/timestamp: \
 	C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlDatabase \
 	C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlError \
 	C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlQuery \
+	C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlRecord \
 	C:/Qt/6.9.0/mingw_64/include/QtSql/QSqlTableModel \
 	C:/Qt/6.9.0/mingw_64/include/QtSql/qsqldatabase.h \
 	C:/Qt/6.9.0/mingw_64/include/QtSql/qsqlerror.h \
 	C:/Qt/6.9.0/mingw_64/include/QtSql/qsqlquery.h \
 	C:/Qt/6.9.0/mingw_64/include/QtSql/qsqlquerymodel.h \
+	C:/Qt/6.9.0/mingw_64/include/QtSql/qsqlrecord.h \
 	C:/Qt/6.9.0/mingw_64/include/QtSql/qsqltablemodel.h \
 	C:/Qt/6.9.0/mingw_64/include/QtSql/qtsql-config.h \
 	C:/Qt/6.9.0/mingw_64/include/QtSql/qtsqlexports.h \
@@ -679,8 +681,11 @@ application_autogen/timestamp: \
 	C:/Users/mrbog/Documents/application/modul_select.h \
 	C:/Users/mrbog/Documents/application/moduls.cpp \
 	C:/Users/mrbog/Documents/application/moduls.h \
+	C:/Users/mrbog/Documents/application/training.cpp \
+	C:/Users/mrbog/Documents/application/training.h \
 	C:/Users/mrbog/Documents/application/addwordswindow.ui \
 	C:/Users/mrbog/Documents/application/mainwindow.ui \
 	C:/Users/mrbog/Documents/application/modul_select.ui \
 	C:/Users/mrbog/Documents/application/moduls.ui \
+	C:/Users/mrbog/Documents/application/training.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

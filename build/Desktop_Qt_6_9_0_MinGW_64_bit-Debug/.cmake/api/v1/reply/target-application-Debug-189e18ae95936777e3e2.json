@@ -74,13 +74,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 71,
+				"line" : 73,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 49,
+				"line" : 51,
 				"parent" : 0
 			},
 			{
@@ -358,18 +358,20 @@
 				1,
 				2,
 				6,
-				9
+				9,
+				12,
+				15
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "application_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "application_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "application_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "application::@6890427a1f51a3e7e1df",
@@ -488,7 +490,9 @@
 				1,
 				2,
 				6,
-				9
+				9,
+				12,
+				15
 			]
 		},
 		{
@@ -499,8 +503,12 @@
 				5,
 				8,
 				11,
-				12,
-				13
+				14,
+				17,
+				18,
+				19,
+				20,
+				21
 			]
 		},
 		{
@@ -509,21 +517,23 @@
 			[
 				4,
 				7,
-				10
+				10,
+				13,
+				16
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				14
+				22
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				15
+				23
 			]
 		}
 	],
@@ -591,6 +601,38 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"path" : "modul_select.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modul_select.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modul_select.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "training.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "training.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "training.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/include/ui_mainwindow.h",
@@ -606,6 +648,18 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/include/ui_moduls.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/include/ui_modul_select.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/include/ui_training.h",
 			"sourceGroupIndex" : 1
 		},
 		{

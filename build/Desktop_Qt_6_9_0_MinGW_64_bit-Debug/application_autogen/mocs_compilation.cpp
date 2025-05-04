@@ -3,3 +3,4 @@
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_modul_select.cpp"
 #include "EWIEGA46WW/moc_moduls.cpp"
+#include "EWIEGA46WW/moc_training.cpp"

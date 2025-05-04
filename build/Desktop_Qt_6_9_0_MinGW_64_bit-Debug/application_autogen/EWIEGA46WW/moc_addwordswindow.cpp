@@ -45,7 +45,8 @@ template <> constexpr inline auto addWordsWindow::qt_create_metaobjectdata<qt_me
         "on_tableView_clicked",
         "QModelIndex",
         "index",
-        "on_pushButton_3_clicked"
+        "on_pushButton_3_clicked",
+        "on_pushButton_4_clicked"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -59,6 +60,8 @@ template <> constexpr inline auto addWordsWindow::qt_create_metaobjectdata<qt_me
         }}),
         // Slot 'on_pushButton_3_clicked'
         QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton_4_clicked'
+        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -86,6 +89,7 @@ void addWordsWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         case 1: _t->on_pushButton_2_clicked(); break;
         case 2: _t->on_tableView_clicked((*reinterpret_cast< std::add_pointer_t<QModelIndex>>(_a[1]))); break;
         case 3: _t->on_pushButton_3_clicked(); break;
+        case 4: _t->on_pushButton_4_clicked(); break;
         default: ;
         }
     }
@@ -110,14 +114,14 @@ int addWordsWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 5;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 5)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 4;
+        _id -= 5;
     }
     return _id;
 }
