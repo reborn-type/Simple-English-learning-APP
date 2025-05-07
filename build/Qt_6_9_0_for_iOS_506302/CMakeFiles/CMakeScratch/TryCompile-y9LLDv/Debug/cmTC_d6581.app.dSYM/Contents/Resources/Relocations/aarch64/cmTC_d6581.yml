@@ -1,0 +1,7 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/Debug/cmTC_d6581.app/cmTC_d6581'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100004000, symSize: 0x58 }
+  - { offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100004000, symSize: 0x58 }
+...

@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8E02A74D8D96F867E7ACACEE /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 883C768FF49144B88D36247F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2C0C83E3A2845BDFD0BFD734 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				583D7EA6CF164B148B29ADBD /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08681B91806E4D1F8B8F066A /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 695696A002344D308BE87900 /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeLists.txt */; };
+		3D54542212074CB8BDC7FEF3 /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/src.cxx */ = {isa = PBXBuildFile; fileRef = D23CEF2ABDBF4647A646E1D3 /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/src.cxx */; };
+		46BE3107EF7140E7B79536CC /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeFiles/cmTC_d6581.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 342B6637DC4348D682D27750 /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeFiles/cmTC_d6581.dir/Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1211075DBF7C455FB8F21658 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		521CC9657B9540BD8DC50B3F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		52A96792F25F4348B4BA34D9 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		BCF744C1D4E744A9BDB061CF /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		CFFC77FC7FBC401CAC7CB743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF3D5F37401443E8D949278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CA784A2C04C5815484F53B2;
+			remoteInfo = cmTC_d6581;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		342B6637DC4348D682D27750 /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeFiles/cmTC_d6581.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = CMakeFiles/cmTC_d6581.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		609A40D2109149158E0E7449 /* cmTC_d6581 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = cmTC_d6581; sourceTree = BUILT_PRODUCTS_DIR; };
+		695696A002344D308BE87900 /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C1ED1EA6F4A64706BCF51BE4 /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D23CEF2ABDBF4647A646E1D3 /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/src.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = src.cxx; path = src.cxx; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30971649D2B46A796B84E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1709449FB2A34E09A1F80F68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				609A40D2109149158E0E7449 /* cmTC_d6581 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C78B70E536B4D1A9BC9313D = {
+			isa = PBXGroup;
+			children = (
+				A054A06D59EC45EFA8FC253B /* cmTC_d6581 */,
+				952D48BD9F1C4A43A42905E2 /* ALL_BUILD */,
+				1709449FB2A34E09A1F80F68 /* Products */,
+				7F94523425DE409CB0BD706F /* Frameworks */,
+				60D27A8C4C1141D49926474C /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		60D27A8C4C1141D49926474C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F94523425DE409CB0BD706F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		952D48BD9F1C4A43A42905E2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E564141CB6A947188EFD2A6B /* CMake Rules */,
+				C1ED1EA6F4A64706BCF51BE4 /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A054A06D59EC45EFA8FC253B /* cmTC_d6581 */ = {
+			isa = PBXGroup;
+			children = (
+				C98C4DF049084EB989CD8708 /* Source Files */,
+				C36A202FA32A457C955B814D /* Resources */,
+				695696A002344D308BE87900 /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeLists.txt */,
+			);
+			name = cmTC_d6581;
+			sourceTree = "<group>";
+		};
+		C36A202FA32A457C955B814D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				342B6637DC4348D682D27750 /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeFiles/cmTC_d6581.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C98C4DF049084EB989CD8708 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23CEF2ABDBF4647A646E1D3 /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/src.cxx */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E564141CB6A947188EFD2A6B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CA784A2C04C5815484F53B2 /* cmTC_d6581 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB62F77EB6C41679B709791 /* Build configuration list for PBXNativeTarget "cmTC_d6581" */;
+			buildPhases = (
+				C091AE4B2483483EAE24C2AF /* Sources */,
+				A30971649D2B46A796B84E70 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cmTC_d6581;
+			productName = cmTC_d6581;
+			productReference = 609A40D2109149158E0E7449 /* cmTC_d6581 */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF3D5F37401443E8D949278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1610;
+			};
+			buildConfigurationList = 2D3C3C03E6C94DF38832B84D /* Build configuration list for PBXProject "CMAKE_TRY_COMPILE" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				521CC9657B9540BD8DC50B3F /* Debug */,
+				BCF744C1D4E744A9BDB061CF /* Release */,
+				1211075DBF7C455FB8F21658 /* MinSizeRel */,
+				52A96792F25F4348B4BA34D9 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 2C78B70E536B4D1A9BC9313D;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				8E02A74D8D96F867E7ACACEE /* ALL_BUILD */,
+				2CA784A2C04C5815484F53B2 /* cmTC_d6581 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C0C83E3A2845BDFD0BFD734 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C091AE4B2483483EAE24C2AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D54542212074CB8BDC7FEF3 /* /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/src.cxx */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		583D7EA6CF164B148B29ADBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CA784A2C04C5815484F53B2 /* cmTC_d6581 */;
+			targetProxy = CFFC77FC7FBC401CAC7CB743 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AD295E3527447E390B2CF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		108F8FC8EE134E5392D461D9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_SHM_OPEN_SHM_UNLINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeFiles/cmTC_d6581.dir/Info.plist";
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG      -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cmTC_d6581;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/build/cmTC_d6581.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		40EB884A8CC94EA5B0F14927 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_SHM_OPEN_SHM_UNLINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeFiles/cmTC_d6581.dir/Info.plist";
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG         -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cmTC_d6581;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/build/cmTC_d6581.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		706505C526F2459D871859A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		805E02F8A20C40CC844AE0CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/build";
+			};
+			name = Release;
+		};
+		874031E7615F4253800EDF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/build";
+			};
+			name = Debug;
+		};
+		A74D77DBD041422CB4D08FF1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A953DAAFD9014994A4C08E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_SHM_OPEN_SHM_UNLINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeFiles/cmTC_d6581.dir/Info.plist";
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG     '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cmTC_d6581;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/build/cmTC_d6581.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C07859E4CBD545AD9D7F31FC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E533A2ABCAFA4B03A1EE2E74 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E8277F65B10B458CBC974E58 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/build";
+			};
+			name = MinSizeRel;
+		};
+		F732D8CF24C24C468E7DD937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_SHM_OPEN_SHM_UNLINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/CMakeFiles/cmTC_d6581.dir/Info.plist";
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG      -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cmTC_d6581;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/build/cmTC_d6581.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CB62F77EB6C41679B709791 /* Build configuration list for PBXNativeTarget "cmTC_d6581" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A953DAAFD9014994A4C08E20 /* Debug */,
+				F732D8CF24C24C468E7DD937 /* Release */,
+				108F8FC8EE134E5392D461D9 /* MinSizeRel */,
+				40EB884A8CC94EA5B0F14927 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2D3C3C03E6C94DF38832B84D /* Build configuration list for PBXProject "CMAKE_TRY_COMPILE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874031E7615F4253800EDF2D /* Debug */,
+				805E02F8A20C40CC844AE0CD /* Release */,
+				E8277F65B10B458CBC974E58 /* MinSizeRel */,
+				A74D77DBD041422CB4D08FF1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		883C768FF49144B88D36247F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD295E3527447E390B2CF29 /* Debug */,
+				706505C526F2459D871859A4 /* Release */,
+				E533A2ABCAFA4B03A1EE2E74 /* MinSizeRel */,
+				C07859E4CBD545AD9D7F31FC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF3D5F37401443E8D949278 /* Project object */;
+}

@@ -89,6 +89,22 @@ build CMakeFiles/application.dir/moduls.cpp.obj: CXX_COMPILER__application_unsca
   OBJECT_DIR = CMakeFiles\application.dir
   OBJECT_FILE_DIR = CMakeFiles\application.dir
 
+build CMakeFiles/application.dir/modul_select.cpp.obj: CXX_COMPILER__application_unscanned_Debug C$:/Users/mrbog/Documents/application/modul_select.cpp || cmake_object_order_depends_target_application
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\application.dir\modul_select.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtSql -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\application.dir
+  OBJECT_FILE_DIR = CMakeFiles\application.dir
+
+build CMakeFiles/application.dir/training.cpp.obj: CXX_COMPILER__application_unscanned_Debug C$:/Users/mrbog/Documents/application/training.cpp || cmake_object_order_depends_target_application
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\application.dir\training.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtSql -isystem C:/Qt/6.9.0/mingw_64/include/QtGui -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\application.dir
+  OBJECT_FILE_DIR = CMakeFiles\application.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target application
@@ -97,7 +113,7 @@ build CMakeFiles/application.dir/moduls.cpp.obj: CXX_COMPILER__application_unsca
 #############################################
 # Link the executable application.exe
 
-build application.exe: CXX_EXECUTABLE_LINKER__application_Debug CMakeFiles/application.dir/application_autogen/mocs_compilation.cpp.obj CMakeFiles/application.dir/main.cpp.obj CMakeFiles/application.dir/mainwindow.cpp.obj CMakeFiles/application.dir/addwordswindow.cpp.obj CMakeFiles/application.dir/moduls.cpp.obj | C$:/Qt/6.9.0/mingw_64/lib/libQt6Sql.a C$:/Qt/6.9.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.9.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.9.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.9.0/mingw_64/lib/libQt6EntryPoint.a || application_autogen application_autogen_timestamp_deps
+build application.exe: CXX_EXECUTABLE_LINKER__application_Debug CMakeFiles/application.dir/application_autogen/mocs_compilation.cpp.obj CMakeFiles/application.dir/main.cpp.obj CMakeFiles/application.dir/mainwindow.cpp.obj CMakeFiles/application.dir/addwordswindow.cpp.obj CMakeFiles/application.dir/moduls.cpp.obj CMakeFiles/application.dir/modul_select.cpp.obj CMakeFiles/application.dir/training.cpp.obj | C$:/Qt/6.9.0/mingw_64/lib/libQt6Sql.a C$:/Qt/6.9.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.9.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.9.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.9.0/mingw_64/lib/libQt6EntryPoint.a || application_autogen application_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.9.0/mingw_64/lib/libQt6Sql.a  C:/Qt/6.9.0/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.9.0/mingw_64/lib/libQt6Gui.a  C:/Qt/6.9.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.9.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -184,7 +200,7 @@ build application_autogen_timestamp_deps: phony
 #############################################
 # Utility command for application_autogen
 
-build application_autogen: phony CMakeFiles/application_autogen application_autogen/include/ui_mainwindow.h application_autogen/include/ui_addwordswindow.h application_autogen/include/ui_moduls.h application_autogen/timestamp application_autogen/mocs_compilation.cpp application_autogen_timestamp_deps
+build application_autogen: phony CMakeFiles/application_autogen application_autogen/include/ui_mainwindow.h application_autogen/include/ui_addwordswindow.h application_autogen/include/ui_moduls.h application_autogen/include/ui_modul_select.h application_autogen/include/ui_training.h application_autogen/timestamp application_autogen/mocs_compilation.cpp application_autogen_timestamp_deps
 
 
 #############################################
@@ -201,7 +217,7 @@ build application_autogen/timestamp application_autogen/mocs_compilation.cpp | $
 #############################################
 # Phony custom command for CMakeFiles\application_autogen
 
-build CMakeFiles/application_autogen application_autogen/include/ui_mainwindow.h application_autogen/include/ui_addwordswindow.h application_autogen/include/ui_moduls.h | ${cmake_ninja_workdir}CMakeFiles/application_autogen ${cmake_ninja_workdir}application_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}application_autogen/include/ui_addwordswindow.h ${cmake_ninja_workdir}application_autogen/include/ui_moduls.h: phony application_autogen/timestamp || application_autogen_timestamp_deps
+build CMakeFiles/application_autogen application_autogen/include/ui_mainwindow.h application_autogen/include/ui_addwordswindow.h application_autogen/include/ui_moduls.h application_autogen/include/ui_modul_select.h application_autogen/include/ui_training.h | ${cmake_ninja_workdir}CMakeFiles/application_autogen ${cmake_ninja_workdir}application_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}application_autogen/include/ui_addwordswindow.h ${cmake_ninja_workdir}application_autogen/include/ui_moduls.h ${cmake_ninja_workdir}application_autogen/include/ui_modul_select.h ${cmake_ninja_workdir}application_autogen/include/ui_training.h: phony application_autogen/timestamp || application_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

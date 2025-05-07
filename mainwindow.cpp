@@ -1,6 +1,5 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "QSqlDatabase"
 #include "addwordswindow.h"
 #include "moduls.h"
 
@@ -11,18 +10,21 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 }
 
+//Деструктор
 MainWindow::~MainWindow()
 {
     delete ui;
 }
 
+//Переход в слова
 void MainWindow::on_pushButton_clicked()
 {
     this->hide();
     addWordsWindow *wordsWindow = new addWordsWindow(this);
     wordsWindow->show();
- }
+}
 
+//Shortcut на масштабирование по F11
 void MainWindow::keyPressEvent(QKeyEvent *event)
 {
     if (event->key() == Qt::Key_F11) {
@@ -36,6 +38,7 @@ void MainWindow::keyPressEvent(QKeyEvent *event)
     }
 }
 
+//Переход на модули
 void MainWindow::on_pushButton_moduls_clicked()
 {
     this->hide();

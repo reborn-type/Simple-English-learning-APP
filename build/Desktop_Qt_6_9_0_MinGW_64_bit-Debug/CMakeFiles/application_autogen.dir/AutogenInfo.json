@@ -434,9 +434,21 @@
 			null
 		],
 		[
+			"C:/Users/mrbog/Documents/application/modul_select.h",
+			"MU",
+			"EWIEGA46WW/moc_modul_select.cpp",
+			null
+		],
+		[
 			"C:/Users/mrbog/Documents/application/moduls.h",
 			"MU",
 			"EWIEGA46WW/moc_moduls.cpp",
+			null
+		],
+		[
+			"C:/Users/mrbog/Documents/application/training.h",
+			"MU",
+			"EWIEGA46WW/moc_training.cpp",
 			null
 		]
 	],
@@ -516,7 +528,9 @@
 		[ "C:/Users/mrbog/Documents/application/addwordswindow.cpp", "MU", null ],
 		[ "C:/Users/mrbog/Documents/application/main.cpp", "MU", null ],
 		[ "C:/Users/mrbog/Documents/application/mainwindow.cpp", "MU", null ],
-		[ "C:/Users/mrbog/Documents/application/moduls.cpp", "MU", null ]
+		[ "C:/Users/mrbog/Documents/application/modul_select.cpp", "MU", null ],
+		[ "C:/Users/mrbog/Documents/application/moduls.cpp", "MU", null ],
+		[ "C:/Users/mrbog/Documents/application/training.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

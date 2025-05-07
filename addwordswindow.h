@@ -7,7 +7,7 @@
 #include <QDebug>
 #include <QSqlQuery>
 #include <QSqlTableModel>
-
+#include <QMessageBox>
 
 namespace Ui {
 class addWordsWindow;
@@ -28,13 +28,17 @@ private slots:
 
     void on_tableView_clicked(const QModelIndex &index);
 
+    void on_pushButton_3_clicked();
+
+    void on_pushButton_4_clicked();
+
 private:
     Ui::addWordsWindow *ui;
     QSqlDatabase db;
     QSqlQuery *query;
     QSqlTableModel *model;
 
-    int row;
+    int row = -1;
 };
 
 #endif // ADDWORDSWINDOW_H

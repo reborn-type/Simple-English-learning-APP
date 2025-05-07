@@ -1,0 +1,2 @@
+dependencies: \
+  /Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_iOS_506302/CMakeFiles/CMakeScratch/TryCompile-y9LLDv/src.cxx

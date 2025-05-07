@@ -16,21 +16,30 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <layout class="QGridLayout" name="gridLayout_2">
-   <item row="0" column="0" colspan="2">
-    <widget class="QTableView" name="tableView"/>
-   </item>
-   <item row="3" column="1">
-    <widget class="QPushButton" name="pushButton_2">
-     <property name="text">
-      <string>Удалить</string>
-     </property>
-    </widget>
-   </item>
-   <item row="1" column="0" colspan="2">
+  <property name="styleSheet">
+   <string notr="true">background-color: #5e69ee;</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Policy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
      </property>
      <property name="sizeType">
       <enum>QSizePolicy::Policy::Maximum</enum>
@@ -38,17 +47,214 @@
      <property name="sizeHint" stdset="0">
       <size>
        <width>20</width>
-       <height>120</height>
+       <height>20</height>
       </size>
      </property>
     </spacer>
    </item>
-   <item row="3" column="0">
-    <widget class="QPushButton" name="pushButton">
-     <property name="text">
-      <string>Добавить</string>
+   <item row="1" column="1">
+    <widget class="QTableView" name="tableView">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>Onest</family>
+       <pointsize>10</pointsize>
+       <fontweight>DemiBold</fontweight>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #F4F4FB; 
+color: #5e69ee; 
+border-radius: 10px;
+</string>
      </property>
     </widget>
+   </item>
+   <item row="1" column="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Policy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="1">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Policy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>10</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="font">
+        <font>
+         <family>Onest</family>
+         <pointsize>13</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+width: 15x;
+height: 30px;
+border-radius: 7px;
+background-color: #F4F4FB;
+color: #5e69ee;
+}
+
+QPushButton:hover {
+    background-color: #ddddf3; 
+    color: #4955ec;
+}</string>
+       </property>
+       <property name="text">
+        <string>Добавить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="font">
+        <font>
+         <family>Onest</family>
+         <pointsize>13</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+width: 15x;
+height: 30px;
+border-radius: 7px;
+background-color: #F4F4FB;
+color: #5e69ee;
+}
+
+QPushButton:hover {
+    background-color: #ddddf3; 
+    color: #4955ec;
+}</string>
+       </property>
+       <property name="text">
+        <string>Удалить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="font">
+        <font>
+         <family>Onest</family>
+         <pointsize>13</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+width: 15x;
+height: 30px;
+border-radius: 7px;
+background-color: #F4F4FB;
+color: #5e69ee;
+}
+
+QPushButton:hover {
+    background-color: #ddddf3; 
+    color: #4955ec;
+}</string>
+       </property>
+       <property name="text">
+        <string>Вернуться </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>150</number>
+     </property>
+     <property name="topMargin">
+      <number>10</number>
+     </property>
+     <property name="rightMargin">
+      <number>150</number>
+     </property>
+     <property name="bottomMargin">
+      <number>10</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Onest</family>
+         <pointsize>25</pointsize>
+         <fontweight>DemiBold</fontweight>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+width: 20px;
+height: 50px;
+border-radius: 10px;
+background-color: #39AFEA;
+color: #F4F4FB;
+}
+
+QPushButton:hover{
+background-color: #18a0e3;
+}</string>
+       </property>
+       <property name="text">
+        <string>Тренироваться</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
   </layout>
  </widget>

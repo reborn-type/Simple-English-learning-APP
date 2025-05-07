@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d6907fe882e0cf8406cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "application",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "application::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-application-Debug-88d68f88d03f98a300a3.json",
+					"name" : "application",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "application_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-application_autogen-Debug-2d003b32fe30362ee833.json",
+					"name" : "application_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "application_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-application_autogen_timestamp_deps-Debug-1523206514da932f529d.json",
+					"name" : "application_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main/build/Qt_6_9_0_for_macOS-Debug",
+		"source" : "/Users/ruslanhincagov/Downloads/Simple-English-learning-APP-main"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
