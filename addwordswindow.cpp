@@ -14,7 +14,7 @@ addWordsWindow::addWordsWindow(QWidget *parent)
     db = QSqlDatabase::addDatabase("QSQLITE");
     db.setDatabaseName("./WordsDB");
 
-
+    //работа с дб
     if (db.open()){
         qDebug("DataBase has opened");
     }
@@ -29,7 +29,7 @@ addWordsWindow::addWordsWindow(QWidget *parent)
     model->setTable("words");
     model->select();
     ui->tableView->setModel(model);
-
+    //Настройка таблицы
     ui->tableView->horizontalHeader()->setSectionResizeMode(0, QHeaderView::Fixed);
     ui->tableView->setColumnWidth(0, 50);     // Первый столбец фиксированный
     ui->tableView->horizontalHeader()->setSectionResizeMode(1, QHeaderView::Stretch); // Второй растягивается
@@ -61,17 +61,6 @@ void addWordsWindow::on_pushButton_clicked() //кнопка добавить
 
     model->setData(model->index(newRow, 0), maxId + 1);
 
-    QString ru_word = ui->tableView->model()->data(ui->tableView->model()->index(newRow, 1)).toString();
-    QString eng_word = ui->tableView->model()->data(ui->tableView->model()->index(newRow, 2)).toString();
-
-    // QRegularExpression rus_words("^[а-яА-Я]{1,30}$");
-    // QRegularExpression engl_words("^[a-zA-Z]{1,30}$");
-    // if (!rus_words.match(ru_word).hasMatch() || !engl_words.match(eng_word).hasMatch()) {
-    //     model->removeRow(newRow); // Удаляем некорректную строку
-    //     QMessageBox::warning(this, "Ошибка", "Некорректный формат слов!");
-    //     return;
-    // }
-
     model->submitAll();
     model->select();
 }
@@ -90,7 +79,7 @@ void addWordsWindow::on_pushButton_2_clicked() //кнопка удалить
     model->removeRow(row);
 
     db.transaction();
-
+    //работа с дб
     QSqlQuery updateQuery(db);
     updateQuery.prepare("UPDATE words SET word_id = word_id - 1 WHERE word_id > ?");
     updateQuery.addBindValue(deletedId); 

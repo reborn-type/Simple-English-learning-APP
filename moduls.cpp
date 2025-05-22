@@ -43,7 +43,7 @@ moduls::~moduls()
     delete ui;
 }
 
-void moduls::on_pushButton_clicked()
+void moduls::on_pushButton_clicked() //добавить
 {
     query->exec("SELECT MAX(ModulID) FROM ModulList");
     int maxId = 0;
@@ -96,7 +96,7 @@ void moduls::on_pushButton_3_clicked() // вернуться
     mWindow->show();
 }
 
-void moduls::on_tableView_doubleClicked(const QModelIndex &index)
+void moduls::on_tableView_doubleClicked(const QModelIndex &index) //переход к модулю на даблклик
 {
     QSqlTableModel *model = qobject_cast<QSqlTableModel*>(ui->tableView->model());
     if(!model){

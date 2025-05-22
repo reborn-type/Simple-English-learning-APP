@@ -60,8 +60,8 @@ void moduls_training::showNewWord()
         return;
     }
 
-    currentEnglish = queryModTr->value(0).toString();
-    currentRussian = queryModTr->value(1).toString();
+    currentEnglish = queryModTr->value(0).toString().trimmed();
+    currentRussian = queryModTr->value(1).toString().trimmed();
 
     ui->word_label->setText(currentEnglish);
     ui->word_input->clear();

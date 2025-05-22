@@ -28,14 +28,14 @@ private:
     Ui::moduls_training *ui;
     QSqlDatabase dbModTr;
     QSqlQuery *queryModTr;
-    QString currentDbName;  // Используем одно поле для имени БД
+    QString currentDbName;  //одно поле для имени БД
     int maxWordId;
     int correctAnswers;
     QString currentEnglish;
     QString currentRussian;
 
     void showNewWord();
-    bool initializeDatabase();  // Добавляем метод для инициализации БД
+    bool initializeDatabase();  // метод для инициализации БД
 };
 
 #endif // MODULS_TRAINING_H

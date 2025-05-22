@@ -1,0 +1,18 @@
+# ninja log v6
+26	717	7691208805957225	build.ninja	aaed4a56589308e8
+18	932	7691208815308160	application_autogen/timestamp	6c2e45ac607478a3
+18	932	7691208815308160	application_autogen/mocs_compilation.cpp	6c2e45ac607478a3
+18	932	7691208815308160	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/application_autogen/timestamp	6c2e45ac607478a3
+18	932	7691208815308160	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/application_autogen/mocs_compilation.cpp	6c2e45ac607478a3
+937	1042	7691208816877156	application_autogen/EWIEGA46WW/qrc_resources.cpp	d00583db53cb9843
+937	1042	7691208816877156	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/application_autogen/EWIEGA46WW/qrc_resources.cpp	d00583db53cb9843
+1096	3133	7691208817497163	CMakeFiles/application.dir/application_autogen/EWIEGA46WW/qrc_resources.cpp.obj	bb74880ed266417d
+1058	3137	7691208817107150	CMakeFiles/application.dir/main.cpp.obj	2982c536e578f0c
+1063	3602	7691208817167156	CMakeFiles/application.dir/mainwindow.cpp.obj	78bce798060ca758
+1043	3719	7691208816957152	CMakeFiles/application.dir/application_autogen/mocs_compilation.cpp.obj	25483c04f518a0b7
+1084	3741	7691208817377147	CMakeFiles/application.dir/training.cpp.obj	3326c70f673efbe0
+1079	3869	7691208817327159	CMakeFiles/application.dir/modul_select.cpp.obj	2c5076e6a72fdd7b
+1073	3920	7691208817267149	CMakeFiles/application.dir/moduls.cpp.obj	3a9f208ed9fb1fca
+1090	3921	7691208817437152	CMakeFiles/application.dir/moduls_training.cpp.obj	47c180577af3d469
+1068	3922	7691208817217149	CMakeFiles/application.dir/addwordswindow.cpp.obj	271b7eec214e4f80
+3923	4202	7691208845758125	application.exe	f810c0025c71d98c

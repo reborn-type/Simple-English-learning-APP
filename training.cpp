@@ -70,8 +70,8 @@ void training::showNewWord()
         return;
     }
 
-    currentEnglish = query.value(0).toString();
-    currentRussian = query.value(1).toString();
+    currentEnglish = query.value(0).toString().trimmed();
+    currentRussian = query.value(1).toString().trimmed();
 
     // Показываем английское слово пользователю
     ui->word_label->setText(currentEnglish);
@@ -80,7 +80,7 @@ void training::showNewWord()
 }
 
 
-void training::on_pushButton_clicked()
+void training::on_pushButton_clicked() //ответить
 {
     QString userAnswer = ui->word_input->text().trimmed();
 

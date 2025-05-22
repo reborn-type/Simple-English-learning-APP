@@ -1,0 +1,9 @@
+C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/CMakeFiles/application.dir
+C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/CMakeFiles/edit_cache.dir
+C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/CMakeFiles/rebuild_cache.dir
+C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/CMakeFiles/list_install_components.dir
+C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/CMakeFiles/install.dir
+C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/CMakeFiles/install/local.dir
+C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/CMakeFiles/install/strip.dir
+C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/CMakeFiles/application_autogen_timestamp_deps.dir
+C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/CMakeFiles/application_autogen.dir

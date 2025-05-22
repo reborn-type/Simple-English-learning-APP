@@ -5,7 +5,6 @@ application_autogen/timestamp: \
 	C:/Qt/6.9.0/mingw_64/include/QtCore/QRect \
 	C:/Qt/6.9.0/mingw_64/include/QtCore/QSize \
 	C:/Qt/6.9.0/mingw_64/include/QtCore/QSizeF \
-	C:/Qt/6.9.0/mingw_64/include/QtCore/QString \
 	C:/Qt/6.9.0/mingw_64/include/QtCore/q17memory.h \
 	C:/Qt/6.9.0/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.9.0/mingw_64/include/QtCore/q20iterator.h \
@@ -666,26 +665,30 @@ application_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-	C:/Users/mrbog/Documents/application/CMakeLists.txt \
-	C:/Users/mrbog/Documents/application/addwordswindow.cpp \
-	C:/Users/mrbog/Documents/application/addwordswindow.h \
-	C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
-	C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
-	C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
-	C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
-	C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/moc_predefs.h \
-	C:/Users/mrbog/Documents/application/main.cpp \
-	C:/Users/mrbog/Documents/application/mainwindow.cpp \
-	C:/Users/mrbog/Documents/application/mainwindow.h \
-	C:/Users/mrbog/Documents/application/modul_select.cpp \
-	C:/Users/mrbog/Documents/application/modul_select.h \
-	C:/Users/mrbog/Documents/application/moduls.cpp \
-	C:/Users/mrbog/Documents/application/moduls.h \
-	C:/Users/mrbog/Documents/application/training.cpp \
-	C:/Users/mrbog/Documents/application/training.h \
-	C:/Users/mrbog/Documents/application/addwordswindow.ui \
-	C:/Users/mrbog/Documents/application/mainwindow.ui \
-	C:/Users/mrbog/Documents/application/modul_select.ui \
-	C:/Users/mrbog/Documents/application/moduls.ui \
-	C:/Users/mrbog/Documents/application/training.ui \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/CMakeLists.txt \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/addwordswindow.cpp \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/addwordswindow.h \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/moc_predefs.h \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/main.cpp \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/mainwindow.cpp \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/mainwindow.h \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/modul_select.cpp \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/modul_select.h \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/moduls.cpp \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/moduls.h \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/moduls_training.cpp \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/moduls_training.h \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/resources.qrc \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/training.cpp \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/training.h \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/addwordswindow.ui \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/mainwindow.ui \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/modul_select.ui \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/moduls.ui \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/moduls_training.ui \
+	C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/training.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Onest-Black.ttf</file>
+        <file>Onest-Bold.ttf</file>
+        <file>Onest-ExtraBold.ttf</file>
+        <file>Onest-ExtraLight.ttf</file>
+        <file>Onest-Light.ttf</file>
+        <file>Onest-Medium.ttf</file>
+        <file>Onest-Regular.ttf</file>
+        <file>Onest-SemiBold.ttf</file>
+        <file>bannerll.png</file>
+        <file>back.png</file>
+        <file>icon.ico</file>
+    </qresource>
+</RCC>

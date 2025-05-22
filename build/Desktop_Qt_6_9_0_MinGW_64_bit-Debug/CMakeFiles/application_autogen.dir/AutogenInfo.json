@@ -1,18 +1,18 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/mrbog/Documents/application",
+	"BUILD_DIR" : "C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/mrbog/Desktop/Simple-English-learning-APP-main",
 	"CMAKE_EXECUTABLE" : "C:/Qt/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/mrbog/Documents/application/CMakeLists.txt",
-		"C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
-		"C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
+		"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/CMakeLists.txt",
+		"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake",
-		"C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+		"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake",
@@ -25,7 +25,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake",
-		"C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
+		"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
@@ -413,54 +413,62 @@
 		"C:/Qt/6.9.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.9.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.9.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlVersionlessAliasTargets.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
+		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
+		"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/resources.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/mrbog/Documents/application",
+	"CMAKE_SOURCE_DIR" : "C:/Users/mrbog/Desktop/Simple-English-learning-APP-main",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/deps",
+	"DEP_FILE" : "C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "application_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/mrbog/Documents/application/addwordswindow.h",
+			"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/addwordswindow.h",
 			"MU",
 			"EWIEGA46WW/moc_addwordswindow.cpp",
 			null
 		],
 		[
-			"C:/Users/mrbog/Documents/application/mainwindow.h",
+			"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"C:/Users/mrbog/Documents/application/modul_select.h",
+			"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/modul_select.h",
 			"MU",
 			"EWIEGA46WW/moc_modul_select.cpp",
 			null
 		],
 		[
-			"C:/Users/mrbog/Documents/application/moduls.h",
+			"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/moduls.h",
 			"MU",
 			"EWIEGA46WW/moc_moduls.cpp",
 			null
 		],
 		[
-			"C:/Users/mrbog/Documents/application/training.h",
+			"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/moduls_training.h",
+			"MU",
+			"EWIEGA46WW/moc_moduls_training.cpp",
+			null
+		],
+		[
+			"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/training.h",
 			"MU",
 			"EWIEGA46WW/moc_training.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_NEEDS_QMAIN",
+		"QT_NO_DEBUG",
 		"QT_SQL_LIB",
 		"QT_WIDGETS_LIB",
 		"UNICODE",
@@ -512,25 +520,54 @@
 		"-c",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 16,
-	"PARSE_CACHE_FILE" : "C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/application_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/application_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.9.0/mingw_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.9.0/mingw_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/application_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/application_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Users/mrbog/Documents/application/addwordswindow.cpp", "MU", null ],
-		[ "C:/Users/mrbog/Documents/application/main.cpp", "MU", null ],
-		[ "C:/Users/mrbog/Documents/application/mainwindow.cpp", "MU", null ],
-		[ "C:/Users/mrbog/Documents/application/modul_select.cpp", "MU", null ],
-		[ "C:/Users/mrbog/Documents/application/moduls.cpp", "MU", null ],
-		[ "C:/Users/mrbog/Documents/application/training.cpp", "MU", null ]
+		[
+			"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/addwordswindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/modul_select.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/moduls.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/moduls_training.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/training.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

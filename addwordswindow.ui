@@ -14,7 +14,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Список слов</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: #5e69ee;</string>

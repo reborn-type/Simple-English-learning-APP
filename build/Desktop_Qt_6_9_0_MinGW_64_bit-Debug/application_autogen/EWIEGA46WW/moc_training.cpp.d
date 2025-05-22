@@ -1,5 +1,5 @@
-C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/EWIEGA46WW/moc_training.cpp: C:/Users/mrbog/Documents/application/training.h \
-  C:/Users/mrbog/Documents/application/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/moc_predefs.h \
+C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/EWIEGA46WW/moc_training.cpp: C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/training.h \
+  C:/Users/mrbog/Desktop/Simple-English-learning-APP-main/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/application_autogen/moc_predefs.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.9.0/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/q20functional.h \
