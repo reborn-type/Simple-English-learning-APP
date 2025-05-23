@@ -11,7 +11,7 @@ addWordsWindow::addWordsWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    db = QSqlDatabase::addDatabase("QSQLITE");
+    db = QSqlDatabase::addDatabase("QSQLITE", "words_connection");
     db.setDatabaseName("./WordsDB");
 
     //работа с дб
@@ -43,6 +43,31 @@ addWordsWindow::~addWordsWindow()
     delete query;
     db.close();
     delete ui;
+}
+
+
+void addWordsWindow::closeDatabase() {
+    // Сохраняем изменения перед закрытием
+    if (model) {
+        model->submitAll();
+        ui->tableView->setModel(nullptr);  // Отвязываем модель от view
+    }
+
+    // Удаляем модель
+    delete model;
+    model = nullptr;
+
+    // Удаляем запрос
+    delete query;
+    query = nullptr;
+
+    // Закрываем БД
+    if (db.isOpen()) {
+        db.close();
+    }
+
+    // Удаляем соединение
+    QSqlDatabase::removeDatabase("words_connection");
 }
 
 
@@ -82,7 +107,7 @@ void addWordsWindow::on_pushButton_2_clicked() //кнопка удалить
     //работа с дб
     QSqlQuery updateQuery(db);
     updateQuery.prepare("UPDATE words SET word_id = word_id - 1 WHERE word_id > ?");
-    updateQuery.addBindValue(deletedId); 
+    updateQuery.addBindValue(deletedId);
     model->select();
     updateQuery.exec();
     db.commit();
@@ -98,9 +123,10 @@ void addWordsWindow::on_tableView_clicked(const QModelIndex &index)
 
 void addWordsWindow::on_pushButton_3_clicked() //кнопка вернуться
 {
-    this->hide();
     model->submitAll();
     model->select();
+    closeDatabase();
+    this->hide();
     MainWindow *mWindow = new MainWindow(this);
     mWindow->show();
 }
@@ -108,9 +134,10 @@ void addWordsWindow::on_pushButton_3_clicked() //кнопка вернуться
 //кнопка тренировки
 void addWordsWindow::on_pushButton_4_clicked()
 {
-    this->hide();
     model->submitAll();
     model->select();
+    closeDatabase();
+    this->hide();
     training *TrainingOfWords = new training(this);
     TrainingOfWords->show();
 }

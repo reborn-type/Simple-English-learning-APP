@@ -39,6 +39,7 @@ private:
     QSqlTableModel *model;
 
     int row = -1;
+    void closeDatabase();
 };
 
 #endif // ADDWORDSWINDOW_H

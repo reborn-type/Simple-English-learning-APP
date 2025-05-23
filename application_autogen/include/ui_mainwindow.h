@@ -26,20 +26,26 @@ class Ui_MainWindow
 public:
     QWidget *centralwidget;
     QGridLayout *gridLayout_3;
-    QSpacerItem *horizontalSpacer;
     QGridLayout *gridLayout_2;
     QLabel *label;
+    QSpacerItem *verticalSpacer_2;
     QPushButton *pushButton;
     QPushButton *pushButton_moduls;
-    QSpacerItem *verticalSpacer;
     QSpacerItem *horizontalSpacer_2;
-    QSpacerItem *verticalSpacer_2;
+    QSpacerItem *horizontalSpacer;
+    QSpacerItem *verticalSpacer;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(800, 600);
+        MainWindow->setEnabled(true);
+        MainWindow->resize(813, 622);
+        QSizePolicy sizePolicy(QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(MainWindow->sizePolicy().hasHeightForWidth());
+        MainWindow->setSizePolicy(sizePolicy);
         MainWindow->setMinimumSize(QSize(0, 0));
         MainWindow->setMaximumSize(QSize(1920, 1080));
         QIcon icon;
@@ -47,21 +53,19 @@ public:
         MainWindow->setWindowIcon(icon);
         MainWindow->setStyleSheet(QString::fromUtf8("\n"
 "background-color: #5e69ee;\n"
-"border-color:  #5e69ee; \n"
+"border-color:  #5e69ee;\n"
+"\n"
 ""));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         gridLayout_3 = new QGridLayout(centralwidget);
         gridLayout_3->setObjectName("gridLayout_3");
-        horizontalSpacer = new QSpacerItem(60, 30, QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Minimum);
-
-        gridLayout_3->addItem(horizontalSpacer, 2, 0, 1, 1);
-
         gridLayout_2 = new QGridLayout();
         gridLayout_2->setObjectName("gridLayout_2");
         gridLayout_2->setContentsMargins(0, 0, 0, 0);
         label = new QLabel(centralwidget);
         label->setObjectName("label");
+        label->setStyleSheet(QString::fromUtf8(""));
         label->setPixmap(QPixmap(QString::fromUtf8(":/new/prefix1/bannerll.png")));
 
         gridLayout_2->addWidget(label, 0, 0, 1, 1);
@@ -69,13 +73,17 @@ public:
 
         gridLayout_3->addLayout(gridLayout_2, 1, 1, 1, 1);
 
+        verticalSpacer_2 = new QSpacerItem(20, 30, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Fixed);
+
+        gridLayout_3->addItem(verticalSpacer_2, 4, 1, 1, 1);
+
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName("pushButton");
-        QSizePolicy sizePolicy(QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Fixed);
-        sizePolicy.setHorizontalStretch(0);
-        sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(pushButton->sizePolicy().hasHeightForWidth());
-        pushButton->setSizePolicy(sizePolicy);
+        QSizePolicy sizePolicy1(QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Fixed);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(pushButton->sizePolicy().hasHeightForWidth());
+        pushButton->setSizePolicy(sizePolicy1);
         QFont font;
         font.setFamilies({QString::fromUtf8("Onest")});
         font.setPointSize(20);
@@ -115,17 +123,17 @@ public:
 
         gridLayout_3->addWidget(pushButton_moduls, 2, 1, 1, 1);
 
-        verticalSpacer = new QSpacerItem(20, 30, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Fixed);
-
-        gridLayout_3->addItem(verticalSpacer, 0, 1, 1, 1);
-
         horizontalSpacer_2 = new QSpacerItem(60, 20, QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Minimum);
 
         gridLayout_3->addItem(horizontalSpacer_2, 2, 2, 1, 1);
 
-        verticalSpacer_2 = new QSpacerItem(20, 30, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Fixed);
+        horizontalSpacer = new QSpacerItem(60, 30, QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Minimum);
 
-        gridLayout_3->addItem(verticalSpacer_2, 4, 1, 1, 1);
+        gridLayout_3->addItem(horizontalSpacer, 2, 0, 1, 1);
+
+        verticalSpacer = new QSpacerItem(20, 30, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Fixed);
+
+        gridLayout_3->addItem(verticalSpacer, 0, 1, 1, 1);
 
         MainWindow->setCentralWidget(centralwidget);
 

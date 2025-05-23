@@ -15,7 +15,7 @@ training::training(QWidget *parent) :
     ui->setupUi(this);
 
     // Инициализация базы данных
-    dbTraining = QSqlDatabase::addDatabase("QSQLITE");
+    dbTraining = QSqlDatabase::addDatabase("QSQLITE", "training_words_connection");
     dbTraining.setDatabaseName("./WordsDB");
 
     if (!dbTraining.open()) {

@@ -4,13 +4,15 @@
 #include "QSqlDatabase"
 #include "modul_select.h"
 
+
+
 moduls::moduls(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::moduls)
 {
     ui->setupUi(this);
 
-    dbModuls = QSqlDatabase::addDatabase("QSQLITE");
+    dbModuls = QSqlDatabase::addDatabase("QSQLITE", "moduls_connection");
     dbModuls.setDatabaseName("./WordsDB");
     if (dbModuls.open()){
         qDebug("DataBase has opened");
@@ -37,11 +39,29 @@ moduls::moduls(QWidget *parent)
 
 moduls::~moduls()
 {
-    delete modelModul;
-    delete query;
-    dbModuls.close();
+    closeDatabase();
     delete ui;
 }
+
+void moduls::closeDatabase() {
+
+    if (modelModul) {
+        ui->tableView->setModel(nullptr);  // Важно: отвязываем модель от view перед удалением
+        delete modelModul;
+        modelModul = nullptr;
+    }
+
+    if (query) {
+        delete query;  // Удаляем запрос
+        query = nullptr;
+    }
+
+    if (dbModuls.isOpen()) {
+        dbModuls.close();  // Закрываем БД
+    }
+    QSqlDatabase::removeDatabase("moduls_connection");  // Удаляем соединение
+}
+
 
 void moduls::on_pushButton_clicked() //добавить
 {
@@ -91,6 +111,7 @@ void moduls::on_tableView_clicked(const QModelIndex &index)
 
 void moduls::on_pushButton_3_clicked() // вернуться
 {
+    closeDatabase();
     this->hide();
     MainWindow *mWindow = new MainWindow(this);
     mWindow->show();
@@ -121,10 +142,13 @@ void moduls::on_tableView_doubleClicked(const QModelIndex &index) //перехо
         name_of_modul = query->value(0).toString();
     }
 
+    modelModul->submitAll();
+    modelModul->select();
+
+    closeDatabase();
+
     modul_select *mWindow = new modul_select(dbName, modul_id, this);
     mWindow->show();
     this->hide();
-    modelModul->submitAll();
-    modelModul->select();
 }
 

@@ -68,10 +68,21 @@ public:
         font.setWeight(QFont::DemiBold);
         tableView->setFont(font);
         tableView->setAutoFillBackground(false);
-        tableView->setStyleSheet(QString::fromUtf8("background-color: #F4F4FB; \n"
+        tableView->setStyleSheet(QString::fromUtf8("QTableView{\n"
+"background-color: #F4F4FB; \n"
 "color: #5e69ee; \n"
 "border-radius: 10px;\n"
-""));
+"}\n"
+"\n"
+"QTableView::item:focus {\n"
+"    border: 1px solid #5e69ee;\n"
+"    background-color: #F4F4FB;\n"
+"}\n"
+"\n"
+"QTableView::item:selected {\n"
+"    background-color: #5e69ee;\n"
+"    color: white;\n"
+"}"));
 
         gridLayout->addWidget(tableView, 1, 1, 1, 1);
 

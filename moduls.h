@@ -42,6 +42,8 @@ private:
     QSqlTableModel *modelModul;
     int row;
     int modulsNum;
+
+    void closeDatabase();
 };
 
 #endif // MODULS_H

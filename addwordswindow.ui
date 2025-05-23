@@ -71,10 +71,21 @@
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: #F4F4FB; 
+      <string notr="true">QTableView{
+background-color: #F4F4FB; 
 color: #5e69ee; 
 border-radius: 10px;
-</string>
+}
+
+QTableView::item:focus {
+    border: 1px solid #5e69ee;
+    background-color: #F4F4FB;
+}
+
+QTableView::item:selected {
+    background-color: #5e69ee;
+    color: white;
+}</string>
      </property>
     </widget>
    </item>
